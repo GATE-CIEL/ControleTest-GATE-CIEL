@@ -3,6 +3,10 @@
 
 bool AgeValide(int age)
 {
-  return true;
+	if (age <= 0 || age > 120)
+	{
+		return false;
+	}
+	return true;
 }
 
